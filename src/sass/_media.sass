@@ -1,0 +1,300 @@
+@media (max-width: 1400px)
+    .menu
+        .menu_item
+            padding-left: 26px
+        .menu_link
+            font-size: 14px
+
+
+@media (max-width: 1200px)
+    .menu
+        .menu_item
+            padding-left: 16px
+        .menu_link
+            font-size: 14px
+    .promo
+        &_header
+            font-size: 50px
+    section.reasons
+        .text
+            width: 317px
+    section.mobile
+        .mobile_item
+            width: 300px
+            height: 265px
+
+@media (max-width: 991px)
+    header
+        .menu
+            .menu_item
+                padding-left: 5px
+            .menu_link
+                font-size: 11px
+        .supheader
+            &_logo
+                width: 100%
+            &_official
+                font-size: 12px
+            .supheader_phone_num 
+                font-size: 18px
+
+
+    .promo 
+        h1.header
+            font-size: 41px
+        h2.subheader
+            font-size: 30px
+    section.reasons
+        .items
+            .item
+                display: flex
+                flex-direction: column
+                align-items: center
+                .text
+                    margin-left: 0
+    section.mobile
+        .mobile_item
+            width: 215px
+            height: 190px
+            padding-top: 60px
+            .mobile_item_subtitle
+                font-size: 15px
+    section.basement
+        padding-bottom: 120px
+        .media
+            left: 50%
+            transform: translateX(-50%)
+            top: 160px
+        .download
+            left: 50%
+            transform: translateX(-50%)
+            top: 104px
+            
+
+
+@media(max-width: 767px)
+    nav
+        height: 30px
+    header
+        .hamburger
+            display: block
+            position: absolute
+            right: 10px
+            top: 50%
+            transform: translateY(-50%)
+            width: 26px
+            span 
+                display: block
+                height: 2px
+                background-color: #fff
+                margin-bottom: 2px
+                transition: 0.5s all
+            &_active 
+                span
+                    margin-bottom: -2px
+                    &:nth-child(1)
+                        transform: rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: rotate(45deg)
+        .menu
+            z-index: 1
+            justify-content: center
+            position: fixed
+            flex-direction: column
+            top: 0
+            left: -100%
+            width: 50%
+            height: 100%
+            padding: 20px 15px
+            background-color: rgba(0,0,0,.8)
+            transition: 0.5s all
+            &_active
+                left: 0
+            .menu_item
+                padding-left: 0
+                border: none
+                margin-top: 10px
+            .menu_link
+                font-size: 20px
+        .supheader
+            .xs-hidden
+                display: none
+            .xs-visible
+                display: block
+                text-align: center
+            .btn 
+                width: 100%
+                margin-top: 5px
+            .supheader_phone_num
+                color: #fff
+                font-size: 16px
+                font-weight: 400
+                text-transform: uppercase
+                text-align: center
+    section.mobile
+            .mobile_item
+                width: 247px
+                height: 225px
+                
+    section.abilities
+        .car
+            top: 303px
+            width: 566px
+
+@media(max-width: 576px)
+
+    header
+        .menu
+            width: 85%
+            .menu_item
+                width: 100%
+                padding: 5px 0
+            .menu_link
+                display: block
+                text-align: center
+        .supheader
+            min-height: 60px
+            .supheader_official
+                display: none
+            .supheader_logo
+                margin-top: 20px
+            .phone_num
+                font-size: 12px
+                font-weight: 400
+                margin-top: 11px
+            .btn 
+                margin-top: 12px
+                height: 22px
+                box-shadow: inset 0 0px 0 rgba(0, 0, 0, 0.12)
+                border: 2px solid rgba(0, 0, 0, 0.07)
+                background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+                text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+                color: #ffffff
+                font-size: 10px
+                font-weight: 400
+                text-align: center
+                text-transform: uppercase
+                padding-top: 1px
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        .text
+            display: none
+        h1.header
+            font-size: 30px
+            padding: 0 24px
+        h2.subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+        .btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    section.reasons
+        padding: 25px 0 36px 0
+        .items
+            margin-top: 26px
+                
+            .item
+                .circle
+                    width: 100px
+                    height: 100px
+                .text
+                    width: 100%
+                    margin-top: 27px
+                &_1
+                    margin-top: 0
+    
+    section.mobile
+            padding: 25px 0 43px 0
+            .mobile_item
+                width: 290px
+                height: 254px
+                padding-top: 81px
+                margin: 15px auto
+                &_subtitle
+                    font-size: 18px
+                    margin: 0 auto
+                &_1
+                    margin-top: 0
+                    .mobile_item_subtitle
+                        width: 193px
+                &_6
+                    .mobile_item_subtitle
+                        width: 196px
+                    margin-bottom: 0                  
+
+    section.abilities
+        padding: 25px 0 33px 0
+        background: url('../images/bgnd2Min.jpg') center center/cover no-repeat 
+        min-height: 390px
+        .title
+            display: none
+        .subtitle
+            display: none
+        .car
+            top: 84px
+            width: 300px
+        .every_day
+            color: #fff
+            margin: 248px 34px 0 37px
+            
+    section.require
+        padding: 25px 0 36px 0
+        .title
+            font-size: 16px
+        .require_title
+            font-size: 16px
+        .require_list
+            li
+                font-size: 14px
+
+    section.world
+        padding: 25px 0 30px 0
+        min-height: 321px
+        .cities
+            bottom: 30px
+
+    section.basement
+        min-height: 254px
+        padding: 25px 0 20px 0
+        .big_links
+            font-size: 14px
+            margin-top: 19px
+        .little_links
+            flex-wrap: wrap
+            justify-content: space-around
+            font-size: 11px
+            margin-top: 10px
+            a
+                padding: 0 15px
+
+        .russian
+            margin-top: 13px
+            font-size: 11px
+        .media
+            position: relative
+            margin-top: 20px
+            top: 0
+        .download
+            position: relative
+            margin-top: 20px
+            top: 0
+            img.download
+                margin-top: 0
+        .black_bottom
+            display: none
+
+    .upper_block
+        margin-top: 0
+        font-size: 12px
+        line-height: 16px
+    .title
+        font-size: 16px
+    .subtitle
+        font-size: 14px
+
